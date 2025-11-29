@@ -1,55 +1,61 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: 1.0.0 → 1.0.1
+List of modified principles:
+  - Modified: Writing clarity
+  - Added: Internal review
+Added sections:
+  - Key Standards (previously added)
+  - Constraints and Success Criteria (previously added)
+Removed sections: None (previously removed [PRINCIPLE_5_NAME], [PRINCIPLE_6_NAME])
+Templates requiring updates:
+  - .specify/templates/plan-template.md ⚠ pending
+  - .specify/templates/spec-template.md ⚠ pending
+  - .specify/templates/tasks-template.md ⚠ pending
+  - .specify/templates/commands/*.md ⚠ pending
+Follow-up TODOs: None
+-->
+# Research paper on AI-native software development Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy through primary source verification
+All factual claims must be traceable to primary sources and verified against them.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity for academic audience
+The paper must be written for an academic audience with a computer science background, ensuring clear, concise, and jargon-appropriate language.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducibility
+All claims, methods, and results must be reproducible, with proper citations and traceable references provided.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Rigor
+Preference is given to peer-reviewed sources to ensure the highest level of academic rigor.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+- All factual claims must be traceable to sources
+- Citation format: APA style
+- Source types: minimum 50% peer-reviewed articles
+- Plagiarism check: 0% tolerance before submission
+- Writing clarity: Flesch-Kincaid grade 10-12; active voice must constitute at least 75% of sentences.
+- Internal review: All factual claims, citations, and writing clarity must undergo an internal fact-checking and editorial review by at least one peer before final submission.
 
+## Constraints and Success Criteria
 
-[PRINCIPLE__DESCRIPTION]
+Constraints:
+- Word count: 5,000-7,000 words
+- Minimum 15 sources
+- Format: PDF with embedded citations
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Success criteria:
+- All claims verified against sources
+- Zero plagiarism detected
+- Passes fact-checking review
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution supersedes all other practices.
+Amendments require documentation, approval, and a migration plan.
+All PRs/reviews must verify compliance.
+Complexity must be justified.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.1 | **Ratified**: 2025-11-29 | **Last Amended**: 2025-11-29
